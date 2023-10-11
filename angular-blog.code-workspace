@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "angular-blog",
+			"path": "../blog do professor/angular-blog"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "blog do professor"
+	}
+}

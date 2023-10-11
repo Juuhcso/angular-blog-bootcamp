@@ -1,16 +1,21 @@
 <div class="container_big-card">
 
   <div class="big-card_img">
-    <img src="https://animerant.com.br/wp-content/uploads/2023/04/as-maldicoes-mais-fortes-de-jujutsu-kaisen.jpg" alt="" srcset="">
+    <img
+    src="{{ photoCover }}"
+    alt=""
+    height="200px"
+    srcset=""
+  >
 
   </div>
 
   <div class="big-card_title">
-    <h1>Um guia para os diferentes tipos de maldições em Jujutsu Kaisen.</h1>
+    <h1><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card_text">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus varius a neque id iaculis. Nulla viverra nunc vel sem scelerisque hendrerit. Cras id lectus et enim pharetra ultrices. Donec varius mi ac faucibus laoreet. Sed hendrerit tincidunt risus, sed venenatis orci pellentesque a. Proin elementum sagittis urna non rhoncus. Nullam sed ullamcorper ipsum, sed feugiat enim. Pellentesque feugiat diam vel ligula pretium eleifend.</p>
+    <p>{{ cardDescription }}</p>
 
   </div>
 
