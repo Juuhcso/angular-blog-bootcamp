@@ -1,0 +1,16 @@
+.container_menu-bar{
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.container_menu-bar >ul{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+
+}
+
+.container_menu-bar>ul > li{
+  list-style: none;
+}
