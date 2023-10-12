@@ -19,7 +19,7 @@ export const dataFake = [
 
   },
 
-  { "ide":"4",
+  { "id":"4",
   "title": "O futuro de Jujutsu Kaisen.",
   "description":"",
   "photoCover": "https://pbs.twimg.com/media/FZ0MvSeWIAAvRWE.jpg:large"
